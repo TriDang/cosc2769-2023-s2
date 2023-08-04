@@ -2,7 +2,11 @@ import { useState } from 'react';
 import './App.css';
 
 function App3({ students }) {
-  const [studentList, setStudentList] = useState(students);
+  const studentsWithShow = students.map(
+    (std) => {return {...std, show: true}}
+  );
+
+  const [studentList, setStudentList] = useState(studentsWithShow);
 
   const updateTable = (studentID) => {
     const studentList2 = studentList.map((std) =>
