@@ -1,0 +1,6 @@
+1, Alice
+  1, Laptop, 500, 2, 900
+  2, Phone, 350, 3, 1050
+3, Tri
+  1, Laptop, 500, 5, 2250
+  3, Keyboard, 130, 2, 156
